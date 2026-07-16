@@ -1,0 +1,1278 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="description" content="Reverse:1999 Gnomon is a fanmade website for turn-based RPG, Reverse:1999, a game developed by Bluepoch"><meta name="google-site-verification" content="F-Yl6UFkUJ2m2cIfk5_h-isNb0egAnBanjRIN47iWb0"><meta name="viewport" content="width=device-width"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/svg+xml" href="/favicon.ico"><meta name="generator" content="Astro v7.0.6"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="sitemap" href="/sitemap-index.xml"><meta property="og:title" content="The Will of Gears | Anecdote | Reverse:1999 Gnomon"><meta property="og:type" content="article"><meta property="og:description" content="Reverse:1999 Gnomon is a fanmade website for turn-based RPG, Reverse:1999, a game developed by Bluepoch"><meta property="og:image" content="https://reverse1999-gnomon.pages.dev/layout/logo.png"><meta property="og:image:alt" content="The Will of Gears | Anecdote | Reverse:1999 Gnomon logo"><meta property="og:url" content="https://reverse1999-gnomon.pages.dev/"><meta property="og:site_name" content="Reverse:1999 Gnomon"><title data-pagefind-meta="title">The Will of Gears | Anecdote | Reverse:1999 Gnomon</title><style>.go-to-top{bottom:3.5rem}@media (width>=768px){.go-to-top{bottom:0}}
+</style><link rel="stylesheet" href="/_astro/Layout.L_3gzSbK.css"><script type="module" src="/_astro/page.jfaOiKjU.js"></script></head><body><div class="drawer min-h-screen"><input id="sidebar" type="checkbox" class="drawer-toggle"><div class="main-background drawer-content flex flex-col relative"><!-- Navbar --><div id="header" class="w-full navbar bg-base-300 h-16 sticky top-0 z-40 shadow-md shadow-primary"><div class="flex-none lg:hidden"><label for="sidebar" aria-label="open sidebar" class="btn btn-square btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6">
+  <path d="M4 6l16 0"></path>
+  <path d="M4 12l16 0"></path>
+  <path d="M4 18l16 0"></path>
+</svg></label></div><div class="flex-1 mx-2"><a href="/" class="flex items-center"><img src="/layout/logo.png" loading="lazy" alt="logo" decoding="async" width="160" height="160" class="mr-2 w-10"><span class="text-xl text-primary italic">Reverse:1999 Gnomon</span></a></div><div class="flex-none hidden lg:block"><ul class="menu menu-horizontal py-1 items-center"><!-- Navbar menu content --><li><a href="/characters">Characters</a></li><li><a href="/a-series-of-dusks">A Series of Dusks</a></li><li><a href="/mane-bulletin">Mane&#39;s Bulletin</a></li><li><a href="/reveries-in-the-rain">Reveries in the Rain</a></li><div x-data><button class="btn btn-outline btn-secondary btn-sm" onclick="searchModal.showModal()">Search</button><template x-teleport="body"><dialog id="searchModal" class="modal"><div class="modal-box w-full h-full max-w-full max-h-screen bg-base-100/80 backdrop-blur-sm flex flex-col overflow-y-visible"><form method="dialog"><button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button></form><h3>Search</h3><!-- <PagefindSearch instance="search1" className="pagefind-ui-root" /> --><!-- <PagefindSearch
+          className="pagefind-ui-root"
+          uiOptions={{
+            autofocus: true,
+            showImages: false,
+            processResult: (result) => processSearchResult(result),
+          }}
+        /> --><pagefind-config preload="true" instance="pagefind-search" bundle-path="/pagefind/"></pagefind-config><script type="module" src="/_astro/PagefindConfig.astro_astro_type_script_index_0_lang.Dq23KoaW.js"></script><pagefind-searchbox instance="pagefind-search" class="pagefind-ui-root"></pagefind-searchbox></div></dialog></template></div></ul></div></div><main class="container flex-1 pt-6"><!-- Page content --><div class="text-sm breadcrumbs mb-4"><ul><li><a href="/">Home</a></li><li><a href="/story">Story</a></li><li><a href="/story/anecdote">Anecdote</a></li><li>The Will of Gears</li></ul></div><h1>The Will of Gears</h1><div x-data="story" class="relative -mx-4"><div class="px-4" x-ref="topChapter"><p class="text-center">Chapter <span x-text="activeChapter.chapter"></span></p><p class="text-center text-lg font-medium text-primary-content" x-text="activeChapter.title"></p></div><p class="mt-3 px-4 text-center italic" x-text="activeChapter.description"></p><div class="divider"></div><!-- Content --><div x-ref="storyContent" class="pt-1 px-4 pb-4" :data-theme="activeTheme"><template x-if="activeChapterIdx === 0"><div><div class="mt-6 md:mt-8 relative before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-primary-content before:opacity-90 italic pl-4">
+<p>(Lab, Suitcase)</p>
+</div>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Fantastic, Regulus! I’ve tried this experiment so many times, but I’ve never had such amazing results!</li>
+<li>You were the perfect fulcrum! I don’t know what I would have done without you.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Regulus</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Hmph, have I really surprised you, then? Hah, you’ve not even seen the best from this Captain yet!</li>
+<li>Check me out!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Regulus strikes the ball with her cue.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The ball rolls forward, coasting along blindly down an over-complicated track.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">After an incomprehensible chain of further Goldberg reactions, including a toy fire engine and a bowl of spaghetti, the fuse, at last, ignites.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Sounding off a twenty-one gun salute in the laboratory, which naturally comes accompanied by a positively wicked rock guitar riff courtesy of Regulus.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Regulus</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Easy as pie!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Splendid, Captain! This exper- … This show of ours is ready to shock the world.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The two like-minded participants are quick to cheer their success.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Unfortunately, one person’s honey can be another’s vinegar.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">And soon, it would not only be fireworks exploding inside the laboratory.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Mesmer Jr.</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Just what in the hell have you been doing in here!</li>
+<li>Why is there a toothbrush stuck in the conveyor belt??? A test tube rack hanging in the air??? A banana peel lying on dry ice??? And why, just why, are there rhinoceros horns in the disinfection cabinet???</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh, please don’t mind the mess, Mesmer. All in the name of science!</li>
+<li>Regulus and I are just testing out some “new gadgets” … a rehearsal for a new performance.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Mesmer Jr.</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’m sure I don’t need to tell you just how many safety regulations you’ve violated. Not that you would care …</li>
+<li>And what exactly is the scientific aim you hope to achieve with this absurd contraption?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Regulus</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Obviously, it’s for the show—</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Obviously, it’s for mechanical science.</li>
+<li>You might not be familiar with Rube Goldberg machines. Their constituent components may seem obtuse or unusual, but when combined, they produce results of remarkable precision.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Mesmer Jr.</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh, indeed, like lighting a firework that you could reach by simply bending down.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Well, maybe … But, it’s the process that matters! Otherwise, why wouldn’t we just die as soon as we’re born?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Mesmer Jr.</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’ve never seen any viable scientific experiment involve a banana peel on dry ice.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Is science not about exploring the unknown?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">As the argument begins to spiral up to its peak, Regulus could not help herself from cracking open a bottle of Dr. Papper.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Mesmer Jr.</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’ve had enough of these childish fancies! Useful mechanics must be concise and repeatable, not these hair-brained schemes you cook up in your imagination!!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Haha, that’s only your own bias at work, Ms. Mesmer. Simple machines might work like that, but it’s totally different with complicated systems.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Mesmer Jr.</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>With all due respect, these inventions of yours are nothing more than meaningless garbage. I suggest you dismantle this … thing immediately, and return the laboratory to its original state.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>My work is hardly useless. It reveals the hidden truths of the universe! Have you considered that life itself was born from a subtle Goldberg machine?</li>
+<li>In the chaotic primordial soup, chemicals collided randomly, forming, by sheer precise coincidence, the foundations of cellular life.</li>
+<li>Similarly, in my apparatus, spheres move repeatedly, eventually reaching a stable outcome. It’s a transition from chaos to order …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Regulus</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Vertin, Vertin! Just in time! I figure they’re about to start fighting any second!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Mesmer Jr.</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Forget it!!</li>
+<li>I thought the arcanists here would be … normal! Must the Timekeeper always be surrounded by these …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Did you call for me, Ms. Mesmer?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">This has been a very bad time to arrive.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The atmosphere around Mesmer Jr. at this moment can only be compared to the sky during the Great Fire of London in 1666. Mere seconds away from inferno.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Mesmer Jr.</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Never mind. You should know, I will be documenting my observations of this incident in a forthcoming report.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The professionalism of her words comes in sharp contrast with her barely-concealed rage as she storms off.</em></p>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 1"><div><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Letter</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>“In conclusion, Researcher X’s continued study on mechanical devices poses significant safety risks …”</li>
+<li>“It is recommended that Researcher X undergo a thorough investigation for compliance, along with all of his mechanical devices …”</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Neat handwriting, clear argumentation. It makes for another fine addition to the pile of over thirty other similar complaints.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">It seems Mesmer Jr. has put no small effort into her report. Now someone else has to work overtime to follow them through.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Relax! There are no safety concerns with any of my devices!</li>
+<li>See, it will all run automatically as soon as you sit down here. And the result is …</li>
+<li>Aha, a flower!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Thankfully, the subject of her investigation is both cooperative and enthusiastic in demonstrating his work.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Next, let me present an experiment that uses marbles to turn off a set of lights after a thirty-minute delay! Oh, and then I’ll have to show you my machine that uses matches and fishing line to automate watering plants! And then …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Huh? Leaving so soon? There’s still a ton of apparatuses and blueprints I haven’t shown you yet!</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">A love of science is hard to criticize.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">But excessive passion in any pursuit can spiral into catastrophe.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Are you certain you don’t want to review my work again? This is a once-in-a-lifetime opportunity!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Uh … Timekeeper?</li>
+<li>You seem out of breath …? Is someone chasing you?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sonetto?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sorry, Mesmer Jr. said you might be here. I just came to check in.</li>
+<li>Did I … disturb you?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">In fact, she has arrived just in time. Unfortunately, so does another.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Hey, Vertin! Where were you off to? I thought you and I were supposed to be having fun doing a “systemic review” of my work.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Hello, Mr. X.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh, hi, Ms. Sonetto!</li>
+<li>I suppose your being here must mean we have a new mission?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Precisely. The Foundation needs us to relocate an arcanist to headquarters before the “Storm.”</li>
+<li>The risk for this operation is relatively low. Timekeeper, you’ve been given free rein to designate your team members for this task.</li>
+<li>It does seem that this mission’s target is rather tricky. Madam Z suggests that you bring along a team member who excels at communication …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Hey, why are you looking at me like that?</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I can’t believe you dragged me out here.</li>
+<li>I’d love to help, but you know field missions aren’t my strong suit. I’m more of a laboratory rat, you know?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You won’t be going back to the laboratory before the investigation ends.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes, yes, yes … I will do whatever I can to assist!</li>
+<li>But aren’t most arcanists known for their difficult personalities? What’s so special about this guy?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Sonetto flips through the mission book.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Our target is Vlad Wilson. Born into a family of potion-makers, he is currently the sole owner of Wilson Pharmaceuticals. It also says he seems to be tied up in some kind of medical dispute.</li>
+<li>You’re originally American, aren’t you, Mr. X? Are you familiar with the name?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Uhm … I grew up in the slums, Sonetto. Not really the kind of place you just bump into pharmaceutical moguls.</li>
+<li>Really, I don’t see how I can help with this mission.</li>
+<li>Maybe you should consider grabbing someone else? I can head back.</li>
+</ul>
+<div class="mt-6 md:mt-8 collapse collapse-arrow border border-primary"><input type="checkbox" class="peer min-h-10"><div class="collapse-title py-0 pt-1 min-h-10 after:!top-1/2 after:!-rotate-45 peer-checked:after:!rotate-45 [&amp;_span]:mt-0"><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p><ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>We could let you out here, if you’d like.</li>
+</ul></div><div class="collapse-content"><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p><ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>No, no, I didn’t mean it that way … Please don’t kick me out in the middle of nowhere.</li>
+</ul></div></div>
+<div class="mt-6 md:mt-8 collapse collapse-arrow border border-primary"><input type="checkbox" class="peer min-h-10"><div class="collapse-title py-0 pt-1 min-h-10 after:!top-1/2 after:!-rotate-45 peer-checked:after:!rotate-45 [&amp;_span]:mt-0"><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p><ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I caution you to remember the subject of your laboratory privileges.</li>
+</ul></div><div class="collapse-content"><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p><ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Of course. Aha, I was only joking.</li>
+</ul></div></div>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Hm … So back to the case, how did he get into this medical dispute? As far as lawsuits go, I’ve heard these types of cases are notoriously tough.</li>
+<li>Got any more information in that book of yours?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>The details of the dispute were not included in the mission book, nor did Madam Z say anything. Perhaps it is a personal matter for Mr. Wilson.</li>
+<li>It is immaterial to our mission. We only need to coordinate with him about the transfer.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes, I just hope things go smoothly.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The car comes to a sudden stop. Still a long distance to go to the target location.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What is it? An ambush?!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>No, it seems to be a protest.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Someone bangs on the car window frantically.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Crowd</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Boycott Wilson Pharmaceuticals!</li>
+<li>Stop the patent acquisition!!! Give us back our medication!!!</li>
+<li>Wilson Pharmaceuticals is a price-gouging monster!!!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Though they move to roll up the windows, streams of flyers are pushed in before it closes up entirely.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh … You were right, Ms. Sonetto. This whole medical dispute doesn’t seem to have anything to do with our mission or arcanum in general.</li>
+<li>But I think I’ve figured out what makes this Wilson guy so tricky.</li>
+<li>Take a look for yourself.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Sonetto takes the flyer.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Vlad Wilson recently listed 49 drug patents for sale … One of which is the only treatment for a copper metabolism disorder …</li>
+<li>And if the proposed sale goes through … The price will be increased from $1 per capsule to …</li>
+<li>$550?!</li>
+</ul>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 2"><div><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Wilson</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Well, what are you worried about?</li>
+<li>We own the patent, so what we charge for it is our right! Doesn’t matter whether it’s sold for $1 or $1000. It’s none of their d**ned business.</li>
+<li>Let the whiners whine all they like. The law is on our side!</li>
+<li>Well, I’m not going to delay this signing any longer. If you don’t want to set this thing to my price, then I can always sell the patent to the Brits instead. You get me?</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<div class="mt-6 md:mt-8 relative before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-primary-content before:opacity-90 italic pl-4">
+<p>(Wilson Company Office)</p>
+</div>
+<p><em class="mt-6 md:mt-8 inline-block">He slams the phone down.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Sonetto, waiting patiently, at last seizes the opportunity to speak.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Mr. Wilson, we are investigators from the St. Pavlov Foundation. As per the contract, please return to headquarters with us.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Wilson</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yeah … Of course. I fully intend on complying with the Foundation.</li>
+<li>But first I need to take care of some company business. As you can see, I’m in a “little pickle,” and things are far from settled here.</li>
+<li>You’ll just have to wait a few days more until this contract is finalized.</li>
+<li>Don’t worry about it. You and your little investigators can put your feet up and relax. We’ll be fully covering your travel expenses while you wait.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>But …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>This isn’t what we originally agreed to, Mr. Wilson.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>That’s right, Mr. Wilson. More importantly, the “Storm” does not wait.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Wilson</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Think I don’t know that? That’s why I’ve got to hurry up and sell these patents.</li>
+<li>Anyway, it’s not like you’ve got any choice in the matter. Or didn’t you read the rider?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Wilson smiles sharply.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">X casts a confused glance at Sonetto.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… There is indeed a clause. 17.2.2: The Foundation is required to assist in the transfer of property from Wilson Pharmaceuticals …</li>
+<li>We will fulfill our obligations.</li>
+<li>But Mr. Wilson, if the “Storm” comes, it will be too late.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Wilson</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Relax, little Miss Foundation. It won’t take long.</li>
+<li>After my acquisition is complete, I’ll honor the contract. I’ve got my reasons for this, you’ll see.</li>
+<li>Till then, I’ve got work to do. Now, get out of here. Go make yourselves comfortable.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">The protesters are still marching outside the office building.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Passerby</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Cancel this sale! Protect patient rights!!!</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">X rolls up the window.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>This Wilson guy is pretty smart. I can’t believe he got us to sign that rider with the Foundation.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Do we just keep waiting like this?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Timekeeper, I do understand your concern.</li>
+<li>But according to the terms of the rider, all we can do now is wait.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>But Mr. Wilson didn’t even give us a definitive timeline.</li>
+<li>What are we going to do? Just wait around until the very last moment before the “Storm”?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>That won’t be necessary.</li>
+<li>If need be, I’ll ask headquarters for permission to transfer him forcibly.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’m not sure if that will do much to help.</li>
+<li>Seems like headquarters was fully aware of Wilson’s “little pickle.” But they still chose to make this agreement with him.</li>
+<li>… Hmm, I see. Haha, so that’s how it is.</li>
+<li>Ms. Sonetto, I think we’ve misunderstood the true purpose of our mission.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What do you mean?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sure, Wilson is an arcanist, but he’s a businessman first.</li>
+<li>He is just trying to seek the best outcome for his interests.</li>
+<li>So, after learning about the “Storm,” he chose to join up with the Foundation. But he also chose to sell off his patents, and he’s aiming on getting the most he can.</li>
+<li>Of course, he had to expect that this would cause a lot of trouble. But as long as he’s the rightful patent owner, he can sell it to anyone and for any price.</li>
+<li>Then, he prepared his own retreat.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>So we’re here as security?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Mm-hm. You’ve got it, Ms. Vertin. He knew the Foundation would send someone to pick him up; he also knew he could make them stick around using the rider.</li>
+<li>So if the situation deteriorates any further, he’ll be able to use us as his shield.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Mr. X, what do you mean …?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Think about it …</li>
+<li>Might he not, for example … make us suppress a riot, if it becomes a threat?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Ridiculous!</li>
+<li>We will, of course, ensure Mr. Wilson’s personal safety, but we are under no obligation to follow his orders.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Ms. Sonetto, I can see why Madam Z warned you about this mission.</li>
+<li>The moment you said “Of course,” you fell into his trap.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I don’t understand …?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Like it or not, he intends to make this part of our mission.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes. Just follow the chain of events. All he will need to do is demonstrate that it is our job to “assist in the transfer of property” and “protect the mission target,” and on principle, we cannot refuse him.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>But the contract says nothing about suppressing riots.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>So then the next part is clear. We’ve got to find a break in the chain and exploit it, before he passes that buck on to us.</li>
+<li>Huh? Why are you all looking at me like that?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sorry, your analysis was so reasonable that I almost lost my train of thought.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Seems like we must entrust this next part to you, X.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Wait, are we starting to pass the buck already?</li>
+<li>Well, I can probably keep him safe … But I’m not sure if I’m the right person for the job.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Of course you are, Mr. X, and I must say it is truly an honor to be on this mission with you.</li>
+<li>Your insight has been most invaluable to our mission. Truly.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Well, this mission just went from bad to worse.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… I’d better get out of here before you two find more work to give me.</li>
+<li>See you later, my heartless friends.</li>
+</ul>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 3"><div><p><em class="mt-6 md:mt-8 inline-block">There’s never much fun in waiting around.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">But I’ll say one thing for her: She never wastes time.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Morning, Timekeeper. Did you happen to see Mr. X?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Weren’t you two just together?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes, but after we left Mr. Wilson’s office, X suddenly claimed he had to get some coffee …</li>
+<li>But when I went to check, he wasn’t in the cafe downstairs.</li>
+<li>I was hoping to ask him to go over the rider again and perhaps draw up a formal proposal …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Could you use my help instead?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh, no, no, please, Timekeeper, leave the paperwork to your capable assistant.</li>
+<li>But, if you do have time, could I trouble you to help me find Mr. X?</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<div class="mt-6 md:mt-8 relative before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-primary-content before:opacity-90 italic pl-4">
+<p>(Underground Parking Lot)</p>
+</div>
+<p><em class="mt-6 md:mt-8 inline-block">Finding X is not hard.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">One only needs to consider where someone would go when they’re trying to dodge work—somewhere spacious, quiet, and off the beaten track.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Okay, one more wire to go …</li>
+<li>Who wants to provide our final lucky wire?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Children</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Me, me!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">X finds himself in an old garage, one he has set up in near to the protesters. And in front of him now stands a rudimentary Rube Goldberg machine.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">So far, it consists of marbles, wires, rusty horns, a sprinkler, and a bucket with the bottom missing—household junk.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Before him, a group of kids from the protest gather around, looking at the contraption in amazement.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Thanks to everyone’s enthusiastic support, our “Fully Automatic Marble Launcher” is finally ready!</li>
+<li>Simply adjust the machine to the desired angle and press this spring … Then we can enjoy a marvelous flying marble show!</li>
+<li>Who wants to go first?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The children eagerly raise their hands. One little girl is particularly loud in her excitement.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Mm-hm, ladies first. Let’s let Sophie, our prized bucket sponsor, come up and take our maiden flight!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sophie</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Haha! I told you I’d get you back for spraying me with that sprinkler!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Sophie lets out a vindictive laugh as she turns the machine toward her companion and presses the spring down smugly.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The marble bursts up and outwards, rolling around inside the bottomless bucket three times, and then flings out high into the air.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Traveling through the rusty horn, before it lands right back … where it started.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sophie</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Children</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Beautiful! An unmitigated success, Sophie.</li>
+<li>You see, no matter what angle you set it at, the marble will always return to its original position.</li>
+<li>A truly epic invention—a Fully Automated Marble Launcher which self-resets for unlimited use!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">X begins to clap for himself. The response is an overwhelming chorus of boos from the kids.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sophie</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Hey, what’s this all about, mister! You promised me that marble would fly 30 feet!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>In fact, I promised that the vertical flight distance would be 30 meters…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sophie</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>And what about the “precise targeting”? It didn’t even hit ‘em!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>A marble falling back into its exact starting position is the very definition of precise targeting!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sophie</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>If I’d known it was just gonna do that, I never would have given you the bucket!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The kids start into an uproar as loud as the protests outside.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Mixed in are shouts of “Make a better one,” “Give me back my sprinkler,” and “I’m telling my mom that you’re a weirdo!”</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>The atmosphere here is electric, to say the least.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Is Mr. X … putting on some kind of performance for these children?</li>
+<li>He seems to be enjoying it.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…?!</li>
+<li>Oh! Vertin, Ms. Sonetto?! When did you get here …?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Don’t be so nervous, Mr. X. The Timekeeper just wants to see your latest performance.</li>
+<li>Right, so what is this … “Sprinkler” she just mentioned?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Little Girl</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It’s the most fun machine in the whole world! It made Sophie cry and call for her mom!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sophie</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Nuh-uh! I wasn’t crying! That was just water! Water!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Looks like there was quite a showdown here.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Don’t look at me like that. I solemnly swear that this machine was carefully designed to avoid any risk of harm.</li>
+<li>I can explain this.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">As X begins to speak, several calling voices are heard in the distance.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Little Girl</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Ah, that’s my mom! Guess it’s time for my medicine … again.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sophie</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yeah, my dad says we’ve got to leave soon. So, wanna meet up and play here tomorrow?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Little Girl</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I dunno … Mom said she might have to take me back to the hospital, but only if “Mr. Wilson grows a heart” …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sophie</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>That sucks …</li>
+<li>Why do we gotta be sick? It’d be cool if we could just wind up a spring and reset like this weirdo’s toy …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Hm? Thought you said you didn’t like my Automatic Marble Launcher.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sophie</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yeah, cause—I—don’t—! I’m going home. You can keep the broken bucket, Mr. Weirdo!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The children begin to leave, heading back towards their waiting parents.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Who were those kids …?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>They’re all children with congenital copper metabolism disorder.</li>
+<li>I’ll explain—but just wait a sec.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">X lets out a sigh and begins to dismantle his contraption, carefully removing each of the different donated pieces.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’ll be just a minute.</li>
+</ul>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 4"><div><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>So, then, their parents are the protesters we encountered at the march …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes. Their parents have been protesting outside Wilson Pharmaceuticals for days now. So I offered to watch their kids.</li>
+<li>I wanted to give these kids a bit of a break—make something fun for them, you know?</li>
+<li>A lot of them have been in and out of hospitals for a long time, so I thought they could use something to lift their spirits.</li>
+<li>Hopefully, they’ll never have to know why their parents were protesting.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>So you decided to make a toy for them?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh, it wasn’t just a toy.</li>
+<li>I prefer to describe it as a project.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It seems you’re very passionate about this project.</li>
+<li>Mr. X, it was very kind of you to create such an … amusement for these children.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>But there’s another angle to it: You got them involved.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>A sense of involvement is important for attracting an audience.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>But your investors protested the product didn’t meet expectations?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Well, I can’t help that. I can’t just let little kids run around with a marble launcher that just shoots off anywhere, now can I?</li>
+<li>Still, seems like I’m not so good at building a “respectable” rapport with these kids.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You sell yourself short, Mr. X. It’s plainly clear they like you.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Aha, well, I appreciate your confidence.</li>
+<li>The way they play reminds me a lot of the other kids, who played in the orphanage growing up.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Orphanage …?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes, it’s a bit different from growing up in the St. Pavlov Foundation, like you did.</li>
+<li>Back then, I had lots of siblings. I would often make machines like this. I’d get them to invest too …</li>
+<li>But later …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh no, did something happen?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>—I joined the Foundation, and well, frankly, it’s hard to find the same sort of investors there.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Is that so?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Of course. My brothers and sisters back then would give me anything I needed, just to see what I’d make. But when it comes to convincing adults, like Laplace and Mesmer … They’re not so eager, especially that overbearing complainer.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Hmm, what was that about Ms. Mesmer?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh. Nothing, nothing. She’s a fine colleague.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh, perhaps I heard you wrong.</li>
+<li>But what Sophie just said does remind me of something Ms. Mesmer Jr. has said about mankind.</li>
+<li>“One only needs to press the button to activate the feature. The toggle switch connects the circuits …”</li>
+<li>“If only the human condition could be repaired like a machine.”</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Ms. Sonetto … do you realize that’s an excellent proposition on mechanical theory?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What do you mean? I’m afraid I don’t know anything at all about mechanical theory …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>No, no. What you just quoted, or should I say, “proposed,” is precisely what lies at the heart of the LSCC’s ethos.</li>
+<li>“If we know the state of the universe at some initial time, we can determine its state at any other time.”</li>
+<li>The ultimate goal of the LSCC is to build an omniscient, intelligent machine capable of doing just that.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Is that so … That would be an amazing feat!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>But I’m afraid this would still not achieve Ms. Mesmer’s ideal.</li>
+<li>Ms. Sonetto, if society were to behave like a perfect machine, and each element would follow a precise and predictable orbit. What would determine who benefits from the system and who doesn’t?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>The system …?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>The initial point.</li>
+<li>Because in a measured orbit, everything is predetermined. So we only need to calculate the initial position of any one part to calculate all its states from past to future in the orbit.</li>
+<li>Therefore, if the ball is set to move from point A to point B, then it might be that wealth is destined to flow from the poor to the rich.</li>
+<li>And because the system is so designed that only those who pay get treatment, so individuals with higher starting points will receive the greater benefits.</li>
+<li>It’s a rational system and a legal one, for now. No surprises and no miracles.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You seem to be confusing social systems for mechanistic ones.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Fundamentally, there is no difference between humans and machines.</li>
+<li>Oh, I apologize, I’ve gone off-topic … Ms. Sonetto, would you mind helping me clean this up?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Happy to help!</li>
+<li>But what did you mean by “the initial point?”</li>
+</ul>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 5"><div><p><em class="mt-6 md:mt-8 inline-block">Mr. Wilson’s patent transfer has been delayed now for three days. Today is the last day to sign.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>According to the agreement, we will transfer Mr. Wilson to headquarters immediately after the contract is signed.</li>
+<li>But now …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Protester</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Price gougers kill!!! Give us back our money!!!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Police</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Back! Get back!!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">A raging protest surrounds the Wilson Pharmaceuticals building, waiting for his car to depart.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Once the contract is signed, the only effective drug for a serious copper metabolism disorder will rise from $1 to $550.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">For both sides, this seems to be their last chance.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Male Clerk</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Hello, are you from the St. Pavlov Foundation? We’re with Mr. Wilson.</li>
+<li>We’d like to ask you to accompany us to the signing location to keep things under control.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’m sure you understand that is not our responsibility.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Male Clerk</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>According to the rider you signed with Mr. Wilson, the Foundation must assist Wilson Pharmaceuticals in the transfer of all property. These patents are the company’s property.</li>
+<li>Please understand, we are only asking you to act in accordance with the contract.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I understand. We will do what we must to assist you.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sonetto?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Male Clerk</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Just you, Miss?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Nowhere in the contract does it specify the number of people that must be present during this transfer.</li>
+<li>The Timekeeper has more important tasks, so this obligation will be fulfilled by me as her assistant.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Male Clerk</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Of course, I’m certain we can trust in your capabilities as an agent of the St. Pavlov Foundation.</li>
+<li>Please follow me.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Not to worry, Timekeeper. I’ll decide whether it is necessary to activate our emergency plan to protect Mr. Wilson as the situation develops.</li>
+<li>You and Mr. X should take this time to make preparations for the transfer.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Sonetto and the clerks from Wilson Pharmaceuticals take their leave.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Everything is proceeding just as X said it would, yet the prophet himself is not present.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Instead, on the roof of an abandoned high-rise building, a lone figure stands against the wind.</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>“If there is an intelligence that can understand all the forces that bring vitality to nature …”</li>
+<li>“And all the elements and things that constitute nature and their current states …”</li>
+<li>“And this intelligence is great enough to analyze all this data …”</li>
+<li>“Then from the largest object in the universe to the smallest particle, the movements of every body in time and space can be encompassed in the same formula …”</li>
+<li>“For this intelligence, nothing is uncertain. The future will unwind before it with the same certainty that the past does.”</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The wind rustles the pages of the book.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What a beautiful discourse, Mr. Laplace.</li>
+<li>It’s just a pity … The butterfly has already flapped its wings.</li>
+<li>When you were erecting that perfect machine, did you ever think that even the smallest gears might have a will of their own?</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">The protesters are gathered in front of Wilson Pharmaceuticals.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The rage of the crowd is growing to a fever pitch.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Crowd</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Down with Wilson!!! Wilson has blood on his hands.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Security Guard</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>D**n it, we won’t be able to get out …!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Allow me.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Sonetto takes a deep breath.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>May the peace be with us.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Then, she lifts her arms high—</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Via Pellar!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">A simple and harmless arcane skill.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">It grants a blessing to the road, so that Wilson’s car is able to safely drive away despite the crowds.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The headlights come on. Everyone can only watch as Wilson’s car speeds away, harmlessly passing through the crowd.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Wilson</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Useless whiners, what do these idiots know …?</li>
+<li>It costs money to go to London, to develop a drug, to avoid the “Storm,” to come back … Everything costs money.</li>
+<li>Besides, why should I care about things like ethics when the “Storm” is about to wash away everything?</li>
+<li>I don’t have time for this. Get out of the way, you stupid bastard!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Wilson pushes his driver out, taking the wheel of his car and slamming on the gas pedal.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…!?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sonetto!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The smoke disperses.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The crowd has instinctively retreated from the crash, forming a large circle.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Smoke billows out from Wilson’s black car. It has crumpled up like a crushed soda can.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">A sudden and unexpected accident.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Crowd</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Oh My God …!</li>
+<li>Wilson is dead!!!</li>
+<li>He was crushed by his own company’s sign falling down!!</li>
+<li>Seems like God finally took an interest! Hallelujah!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>How could this have happened …?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Perhaps it is only a momentary illusion. But it seems to Vertin that she has spied the fluctuation of an arcane skill not far way on an abandoned high-rise.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Yet, a second look confirms there is no one to be seen.</em></p>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 6"><div><div class="mt-6 md:mt-8 relative before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-primary-content before:opacity-90 italic pl-4">
+<p>(Hallway, Foundation)</p>
+</div>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’m terribly sorry, Timekeeper. We’ve failed our mission. I should have done something sooner …</li>
+</ul>
+<div class="mt-6 md:mt-8 collapse collapse-arrow border border-primary"><input type="checkbox" class="peer min-h-10"><div class="collapse-title py-0 pt-1 min-h-10 after:!top-1/2 after:!-rotate-45 peer-checked:after:!rotate-45 [&amp;_span]:mt-0"><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p><ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>This wasn’t your fault, Sonetto.</li>
+</ul></div><div class="collapse-content"></div></div>
+<div class="mt-6 md:mt-8 collapse collapse-arrow border border-primary"><input type="checkbox" class="peer min-h-10"><div class="collapse-title py-0 pt-1 min-h-10 after:!top-1/2 after:!-rotate-45 peer-checked:after:!rotate-45 [&amp;_span]:mt-0"><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p><ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’m afraid it was completely unavoidable.</li>
+</ul></div><div class="collapse-content"></div></div>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>No, no need to comfort me, Timekeeper. I’m prepared to take full responsibility.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Messenger</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sonetto!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Yes!</li>
+<li>Well, I’m going in.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Sonetto disappears through the door to the interrogation room.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Ah, I should have expected we’d fall into some trouble when we returned to the Foundation.</li>
+<li>Seems like I’m not cut out for field missions.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Is that really the story you’re going with?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What? We haven’t even entered the interrogation room, and you’re already starting to question me?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Don’t change the subject, Mr. X.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Fine. But before you begin, let me ask first …</li>
+<li>What makes you think I did anything?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Your absence at the scene was noted. Convenient, even—</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I was just playing games with the kids. You read the report.</li>
+<li>I’m sure you’ll find they all passed the Lie Detector test that was administered, verifying my whereabouts at the time.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sound of gears was heard at the crime scene.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>And I’m sure you also read that the report concluded that there was a loose part on the sign. As for gears, come on, it’s New York. That could have been anything!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It’s easy to fake an accident with Goldberg Machine.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>All of life is a Rube Goldberg machine. The only question is the outcome, and the initial point.</li>
+<li>But you’re asking “Did I make it.” If I did, where was its fulcrum? There wasn’t any trace of a machine at the scene.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Thoughts begin to race.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Ultimately, X is the common feature of every Goldberg apparatus …</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">From Regulus’s firework lighting cue.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">To Sophie’s marble launching spring.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Human action is the initial point for every mechanical device. The participants themselves are a part of the experiment. Their behavior, their actions, engineered as a part of the machine.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Stable, controllable, and able to follow instructions.</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Via Pellar!</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Your fulcrum was a person.</li>
+<li>You used her. You used Sonetto.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I don’t know what you could possibly mean.</li>
+<li>We both know I wasn’t there. So how could I have controlled Ms. Sonetto’s actions?</li>
+<li>Are you trying to say that Ms. Sonetto acted as my accomplice?</li>
+<li>That’s a very serious accusation, wouldn’t you say?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… You!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Messenger</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Vertin!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Tsk, they’re calling you, Vertin.</li>
+<li>Maybe we can talk more after this?</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<div class="mt-6 md:mt-8 relative before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-primary-content before:opacity-90 italic pl-4">
+<p>(Interrogation Room)</p>
+</div>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Inquisitor</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>So, do you have any additional information to add about the incident? Anything that could help would be welcome, Timekeeper.</li>
+<li>Please answer honestly.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Silence.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">At first, the choice to speak up would have only implicated one person.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">But that is no longer the case.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I have shared all the information I know.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Inquisitor</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I understand. Thank you for your cooperation.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">The wait for the verdict drags on, a sword hanging over the heads of two friends, dangling on a thread.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Finally …</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Timekeeper! Great! I’ve been looking for you!</li>
+<li>I’m to inform you that the Foundation has dismissed their investigation.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Dismissed?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>The results from the crime scene found no trace of unexpected arcane activity. The case has been officially ruled an accident.</li>
+<li>Still, I’m planning on staying late at the Foundation, so I can volunteer for the very next mission. I must rectify this blot on our record!</li>
+<li>Are you leaving?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes. I have something to take care of.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh, alright. Well … See you soon.</li>
+<li>By the way, it seems like the patent acquisition was terminated after Mr. Wilson’s accident. So, it seems the price of the drug will remain $1!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Could this truly have been God’s will?</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Or perhaps it was there a Devil in the machine?</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You look angry.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Did you know—Did you see this coming?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You’re overestimating my skills, Ms. Vertin.</li>
+<li>Arcanists are good with intuitive insight, and humans are good with logic-based deduction.</li>
+<li>When the two compete against each other, they might turn a blind eye to the absurdity and chaos that is the world and what happens to certain people in it.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Vertin, I am sorry about the accident.</li>
+<li>But “the rain falls on the just and the unjust alike,” isn’t that what they say?</li>
+<li>Arcanists and humans, the poor and the rich. As long as we all walk this earth, we’re all the same.</li>
+<li>That’s just how the world works.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>So, are we all just cogs in the machine to you?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>When the marble is set, it doesn’t really matter who triggers the spring. Its flight and its target will always be the same.</li>
+<li>In fact, when you consider the mechanistic nature of reality, we’re all cogs of one kind or another.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Vertin</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>But you used your friend. My friend.</li>
+<li>You used her.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>That’s why you’re upset? … Hm, well, I understand.</li>
+<li>Don’t worry … I promise you won’t see anymore “devices that pose safety risks” in the laboratory after this.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">X turns to leave, but stops again.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>—Oh, now that their investigation is over, would you mind if I took some of these letters off your hands?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The mechanical expert smiles, waving the documents back at her before disappearing through the laboratory doorway.</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">The fireplace burns low and quiet.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>”… In conclusion, Researcher X’s study on mechanical devices poses significant safety risks …”</li>
+<li>“Which, through unintended consequences, might result in damages, including but not limited to burns, collisions, disabilities, death, etc.”</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">X takes a sip of his coffee, marveling with pride at the words as he raises the letter into the air.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">X</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>A marvelous insight. These machines certainly have their dangers.</li>
+<li>Burning … That certainly is a risk.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">X taps the edge of his cup, beginning a series of outrageous mechanical movements, as Mesmer’s stack of complaints is pulled one by one from his desk and funneled into the fireplace.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Where they turn to ash, leaving not a single trace.</em></p>
+<br/>
+<span class="text-base-content/50">(THE END)</span></div></template></div><div class="divider"></div><div class="sticky z-10 bottom-0 left-0 right-0 bg-base-300 border-t border-b border-primary/50 py-2 px-4 flex justify-between gap-4 items-center"><button :disabled="activeChapterIdx === 0" class="disabled:opacity-30" @click="prevChapter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2" class="w-6 h-6">
+    <path d="M13 20l-3 -8l3 -8"></path>
+</svg></button><div class="flex-1 flex justify-center gap-2"><select class="select select-sm max-w-max w-full" @change="changeChapter($event.target.value)"><template x-for="chapter in chapters"><option :value="chapter.id" :selected="activeChapterIdx === chapter.id"><span x-text="'Chapter ' + chapter.chapter"></span><span x-text="': ' + chapter.title"></span></option></template></select><select class="select select-sm max-w-max w-full" @change="changeTheme($event.target.value)"><option value="story-default" :selected="activeTheme === 'story-default'">Default</option><option value="story-light" :selected="activeTheme === 'story-light'">Light</option><option value="story-fall" :selected="activeTheme === 'story-fall'">Fall</option></select></div><button :disabled="activeChapterIdx === 6" class="disabled:opacity-30" @click="nextChapter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2" class="w-6 h-6">
+    <path d="M11 4l3 8l-3 8"></path>
+</svg></button></div></div><script>(function(){const chapters = [{"id":"tuning-fork","chapter":1,"title":"Tuning Fork","description":"Farces always attract undue attention. How about a can of Dr. Papper?"},{"id":"potent-drugs","chapter":2,"title":"Potent Drugs","description":"—An ounce of gold, or its equivalent in dollars."},{"id":"the-matthew-effect","chapter":3,"title":"The Matthew Effect","description":"To those who have, more will be given."},{"id":"the-kids","chapter":4,"title":"The Kids","description":"Beyond curiosity and imagination lies a little bit of vindictiveness."},{"id":"starting-point-end-point","chapter":5,"title":"Starting Point, End Point","description":"It's a law of physics. There are no exceptions."},{"id":"gravitational-potential","chapter":6,"title":"Gravitational Potential","description":"\"Ep=mgh\"—this law also applies to social constructs."},{"id":"silent-machine","chapter":7,"title":"Silent Machine","description":"\"Everything in its place.\""}];
+
+  document.addEventListener("alpine:init", () => {
+    window.Alpine.store("story", {
+      chapters,
+    });
+  });
+})();</script><script type="module" src="/_astro/StoryContentWrapper.astro_astro_type_script_index_0_lang.DxutjXdy.js"></script></main><div id="go-to-top" x-data="goToTop" @scroll.window="handleScroll" class="go-to-top sticky bottom-0 left-0 p-4 z-40 pointer-events-none flex justify-end"><button x-show="isShow" x-cloak x-transition @click="handleScrollToTop" x-ref="goToTop" class="btn btn-primary text-white p-0 w-8 h-8 md:w-10 md:h-10 min-h-min pointer-events-auto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6">
+  <path d="M6 15l6 -6l6 6"></path>
+</svg></button></div><script type="module" src="/_astro/GoToTop.astro_astro_type_script_index_0_lang.D4TLgWoS.js"></script><footer x-data="footer" x-ref="footer" class="border-t border-primary"><div class="footer container gap-y-4 place-items-center md:place-items-start items-center p-4"><aside class="items-center grid-flow-col"><a href="/" class="flex items-center"><img src="/layout/logo.png" loading="lazy" alt="logo" decoding="async" width="160" height="160" class="mr-2 w-10"><span class="text-xl text-primary italic"> Reverse:1999 Gnomon </span></a></aside><nav class="grid-flow-col gap-2 md:place-self-center md:justify-self-end"><div class="tooltip" data-tip="What's new" @click="whatsNewModal.showModal()"><div class="btn btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" ></path>
+    <path         d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11" ></path>
+    <path d="M8 8l4 0" ></path>
+    <path d="M8 12l4 0" ></path>
+    <path d="M8 16l4 0" ></path>
+</svg></div></div><a href="/about"><div class="tooltip" data-tip="About"><div class="btn btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <path         d="M12 9h.01"></path>
+    <path         d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z"
+    ></path>
+    <path d="M11 12h1v4h1"></path>
+</svg></div></div></a></nav></div><aside class="footer footer-center bg-base-content/20 py-4 px-2 text-xs">Reverse:1999 Gnomon is a fanmade website and not affiliated with Bluepoch and Official Reverse:1999.<br>All images and data belongs to their respective owners.</aside></footer><script type="module" src="/_astro/Footer.astro_astro_type_script_index_0_lang.DtLatDFZ.js"></script></div><div class="drawer-side z-50"><label for="sidebar" aria-label="close sidebar" class="drawer-overlay"></label><div class="menu p-4 w-80 min-h-full bg-base-200 justify-between"><ul class="flex-1"><!-- Sidebar content --><li><a href="/characters">Characters</a></li><li><a href="/psychubes">Psychubes</a></li><li><a href="/materials">Materials</a></li><li><a href="/guides">Guides</a></li><li><a href="/a-series-of-dusks">A Series of Dusks</a></li><li><a href="/mane-bulletin">Mane&#39;s Bulletin</a></li><li><a href="/reveries-in-the-rain">Reveries in the Rain</a></li><li><a href="/effects">Effects</a></li><li><a href="/about">About</a></li></ul><button class="btn btn-outline btn-secondary btn-sm" @click="searchModal.showModal()">Search</button></div></div></div><dialog id="whatsNewModal" x-ref="whatsNewModal" class="modal p-4 md:p-8" x-data="whatsNew('2026-07-05')" data-pagefind-ignore="all"><div class="modal-box w-full h-full max-w-screen-md max-h-[75%] border border-primary-content bg-base-100/80 backdrop-blur-sm flex flex-col p-4 md:p-6"><form method="dialog"><button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2" class="w-6 h-6">
+    <path d="M18 6l-12 12"></path>
+    <path d="M6 6l12 12"></path>
+</svg></button></form><h3 class="my-2 md:mt-4">What's new</h3><div class="flex-1 overflow-y-auto h-full"><p class="mt-4 text-primary text-lg font-medium">2026-07-05</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add 3.5 info: Ramona official info, Drown Out the Hustle, Luck Be a Lady psychubes</li>
+<li>Add 3.6 info: Enigma official info, The Riddle’s Limit psychube and Recoleta euphoria</li>
+<li>Update latest description text for some characters</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-06-03</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update show euphoria specialties (tags) in character detail page, as some characters will change them based on the activated euphoria (ex: Semmelweis)</li>
+<li>Update specialties filter now will check for both base and euphoria specialties</li>
+<li>Fix spacing styling</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-05-29</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add missing 3.4 info: Cheng Heguang, Reed official info, The Wind’s Listener, All Honor is but Dust psychubes</li>
+<li>Add Lorentz Butterfly official info, Ramona (info will be in development until official release)</li>
+<li>Add new psychube: The Fluttering Moment</li>
+<li>Add Euphoria for: Spathodea, Tuesday</li>
+<li>Uppdate new specialties for most of characters to match with the latest data in game</li>
+</ul>
+<br/>
+<div class="my-2">Hi, it has been a while! As I’m so busy recently, there are data that have been delayed for a long time. Sorry for any inconvenience that you may have. I’ll try to keep up with the updates as much as I can.</div>
+<p class="mt-4 text-primary text-lg font-medium">2026-04-16</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add Paper Heron official info</li>
+<li>Add Euphoria for: Tooth Fairy, Liang Yue, 6, Willow</li>
+<li>Add Photomancy for: Tooth Fairy, A Knight</li>
+<li>Add new psychube: Wayfarer of the Dao</li>
+<li>Update new infographic for characters: An-an Lee, Tooth Fairy, 6, Igor, Lopera, Willow, Flutterpage, Barcarola, Liang Yue, Moldir, Paper Heron (thanks @vaevictis. for these infographic)</li>
+<li>Update some text description</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-04-13</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add new characters in 3.4: Paper Heron, Cheng Heguang, Reed (these page info will be in development until official release)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-03-30</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add Igor official info</li>
+<li>Add new psychube: Across the Acheron</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-03-06</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Fix Marsha info (thanks @hiroshi.22, @byakushiki25 for the feedbacks)</li>
+<li>Update character infographic for: Marsha, Mercuria (thanks @vaevictis. for the infographic)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-03-05</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add Marsha official info</li>
+<li>Add new character euphorias: An-an Lee, Mercuria</li>
+<li>Add new psychube: Singleness of Heart</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-02-28</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add new characters in 3.3: Marsha, Igor (these page info will be in development until official release)</li>
+<li>Add new Ashen Beast mindmap (thanks @flare_azazel for the suggestion)</li>
+<li>Update archetype/trait list (thanks @hiroshi.22 for the feedbacks)</li>
+<li>Add some story transcripts</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-02-12</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update Brume official info</li>
+<li>Add new psychube: Her Willful Leap</li>
+<li>Update new Mane Bulletin info</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-23</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update character, psychube list filters to always show some base filters for quick access (thanks @penguin.scatter for the suggestion)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-22</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add Isolde Photomancy Euphoria info</li>
+<li>Update highlight number in character pages</li>
+<li>Update character infographic for: Beryl, Anjo Nala, Isolde, Kaalaa Baunaa (thanks @vaevictis. for the infographic)</li>
+<li>Update archetype/trait list (thanks @hiroshi.22 for the feedbacks)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-20</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update Beryl official info</li>
+<li>Add new characters euphoria: Anjo Nala, Isolde, Kaalaa Baunaa</li>
+<li>Add new psychubes: The Thousandfold Fate, Shadows in the Subconscious, In Their Figures</li>
+<li>Optimize code to reduce lagging on character pages</li>
+<li>Fix bugs</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-15</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add new 3.2 characters: Beryl, Brume (these page info still in development until official release)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-08</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update infographic for some characters: A Knight, Argus, Centurion, Druvis III, Buddy Fairchild, Charon, Corvus, Rubuska (thank you @vaevictis. for the infographic :D)</li>
+<li>Optimize images for faster page load</li>
+</ul></div><p class="pt-2 text-xs text-right">* Only show 10 latest updated dates.</p></div></dialog><script type="module" src="/_astro/WhatsNew.astro_astro_type_script_index_0_lang.DMvuMQdS.js"></script></body></html>

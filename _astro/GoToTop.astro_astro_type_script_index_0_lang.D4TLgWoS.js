@@ -1,0 +1,1 @@
+import{t as e}from"./module.esm.o5A9fyoj.js";e.data(`goToTop`,()=>({isShow:!1,init(){e.store(`layout`,{...this.$store.layout,goToTop:this.$refs.goToTop})},handleScroll(){this.isShow=window.scrollY>200},handleScrollToTop(){window.scrollTo({top:0,behavior:`smooth`}),this.isShow=!1}}));

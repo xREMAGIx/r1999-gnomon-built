@@ -1,0 +1,1 @@
+import{t as e}from"./module.esm.o5A9fyoj.js";import{n as t}from"./plugin.B-DySJTL.js";e.plugin(t),e.data(`sortMaterials`,()=>({init(){let e=Array.from(this.$el.children).sort((e,t)=>(e.getAttribute(`data-rarity`)??0)>(t.getAttribute(`data-rarity`)??0)?1:-1);this.$el.replaceChildren(...e)}}));

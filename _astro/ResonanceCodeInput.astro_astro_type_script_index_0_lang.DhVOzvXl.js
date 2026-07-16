@@ -1,0 +1,1 @@
+import{t as e}from"./module.esm.o5A9fyoj.js";import{t}from"./module.esm.tqJt1n1d.js";import{t as n}from"./plugin.B-DySJTL.js";e.plugin(t),e.plugin(n),e.data(`clipboard`,()=>({isCopied:!1,isShowTooltip:!1,handleCopied(){this.isCopied=!0,this.isShowTooltip=!0,setTimeout(()=>{this.isShowTooltip=!1},1e3)}}));

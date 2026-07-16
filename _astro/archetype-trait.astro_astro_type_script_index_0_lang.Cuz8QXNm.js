@@ -1,0 +1,1 @@
+import{t as e}from"./module.esm.o5A9fyoj.js";import{t}from"./module.esm.tqJt1n1d.js";e.plugin(t),e.data(`tocFloating`,()=>({isShowToc:!0,handleShow(){this.$nextTick(()=>{this.$refs.toc.hasChildNodes()&&(this.isShowToc=!0,this.$refs.toc.querySelectorAll(`[data-section]`).forEach(e=>{e.addEventListener(`click`,()=>{window.sectionScroll(e)})}))})}}));

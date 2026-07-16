@@ -1,0 +1,1265 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="description" content="Reverse:1999 Gnomon is a fanmade website for turn-based RPG, Reverse:1999, a game developed by Bluepoch"><meta name="google-site-verification" content="F-Yl6UFkUJ2m2cIfk5_h-isNb0egAnBanjRIN47iWb0"><meta name="viewport" content="width=device-width"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/svg+xml" href="/favicon.ico"><meta name="generator" content="Astro v7.0.6"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="sitemap" href="/sitemap-index.xml"><meta property="og:title" content="Back to Earth | Anecdote | Reverse:1999 Gnomon"><meta property="og:type" content="article"><meta property="og:description" content="Reverse:1999 Gnomon is a fanmade website for turn-based RPG, Reverse:1999, a game developed by Bluepoch"><meta property="og:image" content="https://reverse1999-gnomon.pages.dev/layout/logo.png"><meta property="og:image:alt" content="Back to Earth | Anecdote | Reverse:1999 Gnomon logo"><meta property="og:url" content="https://reverse1999-gnomon.pages.dev/"><meta property="og:site_name" content="Reverse:1999 Gnomon"><title data-pagefind-meta="title">Back to Earth | Anecdote | Reverse:1999 Gnomon</title><style>.go-to-top{bottom:3.5rem}@media (width>=768px){.go-to-top{bottom:0}}
+</style><link rel="stylesheet" href="/_astro/Layout.L_3gzSbK.css"><script type="module" src="/_astro/page.jfaOiKjU.js"></script></head><body><div class="drawer min-h-screen"><input id="sidebar" type="checkbox" class="drawer-toggle"><div class="main-background drawer-content flex flex-col relative"><!-- Navbar --><div id="header" class="w-full navbar bg-base-300 h-16 sticky top-0 z-40 shadow-md shadow-primary"><div class="flex-none lg:hidden"><label for="sidebar" aria-label="open sidebar" class="btn btn-square btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6">
+  <path d="M4 6l16 0"></path>
+  <path d="M4 12l16 0"></path>
+  <path d="M4 18l16 0"></path>
+</svg></label></div><div class="flex-1 mx-2"><a href="/" class="flex items-center"><img src="/layout/logo.png" loading="lazy" alt="logo" decoding="async" width="160" height="160" class="mr-2 w-10"><span class="text-xl text-primary italic">Reverse:1999 Gnomon</span></a></div><div class="flex-none hidden lg:block"><ul class="menu menu-horizontal py-1 items-center"><!-- Navbar menu content --><li><a href="/characters">Characters</a></li><li><a href="/a-series-of-dusks">A Series of Dusks</a></li><li><a href="/mane-bulletin">Mane&#39;s Bulletin</a></li><li><a href="/reveries-in-the-rain">Reveries in the Rain</a></li><div x-data><button class="btn btn-outline btn-secondary btn-sm" onclick="searchModal.showModal()">Search</button><template x-teleport="body"><dialog id="searchModal" class="modal"><div class="modal-box w-full h-full max-w-full max-h-screen bg-base-100/80 backdrop-blur-sm flex flex-col overflow-y-visible"><form method="dialog"><button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button></form><h3>Search</h3><!-- <PagefindSearch instance="search1" className="pagefind-ui-root" /> --><!-- <PagefindSearch
+          className="pagefind-ui-root"
+          uiOptions={{
+            autofocus: true,
+            showImages: false,
+            processResult: (result) => processSearchResult(result),
+          }}
+        /> --><pagefind-config preload="true" instance="pagefind-search" bundle-path="/pagefind/"></pagefind-config><script type="module" src="/_astro/PagefindConfig.astro_astro_type_script_index_0_lang.Dq23KoaW.js"></script><pagefind-searchbox instance="pagefind-search" class="pagefind-ui-root"></pagefind-searchbox></div></dialog></template></div></ul></div></div><main class="container flex-1 pt-6"><!-- Page content --><div class="text-sm breadcrumbs mb-4"><ul><li><a href="/">Home</a></li><li><a href="/story">Story</a></li><li><a href="/story/anecdote">Anecdote</a></li><li>Back to Earth</li></ul></div><h1>Back to Earth</h1><div x-data="story" class="relative -mx-4"><div class="px-4" x-ref="topChapter"><p class="text-center">Chapter <span x-text="activeChapter.chapter"></span></p><p class="text-center text-lg font-medium text-primary-content" x-text="activeChapter.title"></p></div><p class="mt-3 px-4 text-center italic" x-text="activeChapter.description"></p><div class="divider"></div><!-- Content --><div x-ref="storyContent" class="pt-1 px-4 pb-4" :data-theme="activeTheme"><template x-if="activeChapterIdx === 0"><div><div class="mt-6 md:mt-8 relative before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-primary-content before:opacity-90 italic pl-4">
+<p>(Library, Suitcase)</p>
+</div>
+<p><em class="mt-6 md:mt-8 inline-block">Two figures are reading, illuminated by the soft lights of the library.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">They sit in comfortable harmony, a tacit understanding between them.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The only sound is the turning of pages.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">It is a silence that will break as their mutual agreement ends.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">After all, this girl has a question forming in her mind.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Excuse me, Mr. Зима …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">It seems the man is in a world of his own. He does not even notice her voice.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The girl lowers her tone. It is shorter, urgent, and almost piercing.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Mr. Зима!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">зима and Зима snap out of their trance.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>W-What?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sorry, maybe I shouldn’t ask you here …</li>
+<li>… but you have the most extensive knowledge of poetic imagery of anyone I know. I have a question that’s been bothering me for a while—</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee on his shoulder shakes its head in surprise and takes flight.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">She takes no notice, fully focused on receiving her answer.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’ve been wondering … What’s your interpretation of “a sparrow in hand” and “a goose in the sky”?</li>
+<li>Is it simply referring to these two animals literally, or does it include all the extended symbolism from previous works?</li>
+<li>Or perhaps, as some suggest … this is some kind of highly directional metaphor?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Зима silently picks up a pen, preparing to write his response in the book lying open in front of him.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Sonetto keenly perceives his intent.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Ah—please don’t do that.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee tilts its head, seemingly confused. Perhaps even a little annoyed.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>These books are from Timekeeper’s collection …</li>
+<li>… If you write on its pages in ink, it’ll spoil the experience for the next reader.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… S-sorry.</li>
+<li>It’s not … stone … anymore. I … forgot …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It’s because you don’t have any blank paper. Here, use this notebook.</li>
+<li>Just like your piles of parchment, I’ve filled many notebooks. Writing down my thoughts … helps me clear my head.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I … u-use parchment … to write.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Of course. Parchment is a very good choice.</li>
+<li>I think there’s some over there … I’ll go look for it. Hold on.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It should be here … Ah, found it.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">When she turns around, a breath of cold air sweeps past her.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The book remains open on the desk. The quill, its owner, and the chickadee named “зима” have all disappeared.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Mr. Зима …?</li>
+<li>Did I say something wrong …?</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<div class="mt-6 md:mt-8 relative before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-primary-content before:opacity-90 italic pl-4">
+<p>(Archives, Foundation)</p>
+</div>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Every time I ask him a question, it seems like he doesn’t want to answer.</li>
+<li>And what did he mean by “stone”?</li>
+<li>Well … I could take a look at his file. Maybe it’ll help me avoid making the same mistake again.</li>
+<li>I’ll just take a little peek …</li>
+<li>…?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The file contains only a few pages, despite covering half of his life within it.</em></p>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 1"><div><p><em class="mt-6 md:mt-8 inline-block">Sonetto stands under the overhead light, slowly reading aloud the words in her hands.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>“In 1912, the poet was charged with ‘insulting the highest authorities.’ He was sent to Eastern Siberia, then transferred through various prisons, and eventually exiled to a solitary island.”</li>
+<li>“Over the next decade, he lived there in isolation …”</li>
+<li>“His poetry … was inseparable from … the animals on the island …”</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">In the forest, Зима sits on a rock in a clearing.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">A group of animals surrounds him. A small forest gathering.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…”Believe not in the unbelievable,&quot;<br/>&quot;And touch not that which is untouchable,”</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">A brown bear beside him places a thick paw on his arm, making the parchment in his hand wobble.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sir, please don’t touch …</li>
+<li>There should be no pause here. It interrupts the meter.</li>
+<li>Ahem.</li>
+<li>“Look not back on the path you did not take,&quot;<br/>&quot;Iron wings, a warning to the hunter makes.&quot;<br/>&quot;Yet in his greed, he disregards it still.”</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">On his left, a fox paws his sleeve disapprovingly.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Please behave. Wait until I’m done …</li>
+<li>…”Try as he might he cannot reach his prey,&quot;<br/>&quot;Futility destroys his world this day.”</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">A sable drapes itself around his neck. It whispers in his ear.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Yes, you’re right. The hunter is simply incorrigible.</li>
+<li>And … I’m afraid there are still many such people in the world.</li>
+<li>May they reap what they sow …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">In the background of this harmonious scene, a reindeer shakes its antlers.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Her dissent nearly knocks the poet off the rock upon which he is sitting.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Ah, miss …!</li>
+<li>I … ahem, ahem. I understand.</li>
+<li>You’re saying that the hunter is just trying to survive … I … I simply don’t agree.</li>
+<li>It is out of vanity, not hunger, that he refuses to return empty-handed.</li>
+<li>Are there truly gems in a pigeon’s belly? The branch it perches on cannot bear, um, the weight of a man …</li>
+<li>The hunter aims to persecute the pigeon, yet it warns him. When he falls into the snow, the snow embraces him.</li>
+<li>Truly … forgiving.</li>
+<li>Yes, it reminds me of …</li>
+<li>“How can we not love earth more than heaven?”</li>
+<li>Nature is the fabric of our world.</li>
+<li>We are like potted plants … placed amidst its great garden.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">A chickadee flies from afar, landing firmly and accurately on his shoulder.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Surprise and intimacy. A pair of long-lost friends.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>My friend!</li>
+<li>You’ve been gone for so long. I had begun to think that you had fallen into a … a hunter’s trap.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The surrounding animals immediately become alert.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>But there are no hunters here …</li>
+<li>Just us.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The hickadee shakes its head and chirps, displeased.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">It looks desperate for the full attention of its friends.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What did you say?</li>
+<li>Wha—</li>
+<li>…!</li>
+<li>… No, I, ahem! Ahem, ahem. I should … go …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The news leaves him trembling. Зима’s papers scatter to the ground, but he is too hurried to pick them up.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">He leaps down from the rock, puts out the fire, and disappears into the depths of the forest.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">His friends, of course, follow close behind.</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">“According to the poet’s own account, the years on the island were marked by ‘bitter cold and loyal companions.’”</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>“‘Many friends …’”</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">By now, she has fallen into a nearby chair and is sitting in contemplation. Her gaze lingers on the file.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“These quiet years lasted at least until the mid-1920s.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“Until a human journalist from the government set foot in that land of the Far East.”</em></p>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 2"><div><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It’s so … desolate.</li>
+<li>Compared to this place, Tobolsk is like the Leningrad of Siberia.</li>
+<li>There must be a bounty of untapped resources here.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sailor</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’d be more focused on finding a place to stay if I were you.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>In what direction is the nearest town? How far is it?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sailor</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Town? There’s nothing but prisons here, lad.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Prisons?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sailor</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You heard me. Not even a pigeon would stop to crap in this cesspit.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>So, where are these prisons?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sailor</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You’re in one, mate.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Ha! I get it. You’re messing with me.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sailor</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Tsk. You came all this way, and you don’t even know a single thing about this place. You’re dead meat.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I just came here to investigate …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sailor</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Head south. Or buy another ticket and come back with us. That’s my suggestion.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I … can’t.</li>
+<li>When will your ship come back again?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sailor</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Side barges are centrally managed … It could be 15 days. Maybe longer.</li>
+<li>Until then, do your best to stay alive.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">“The government journalist discovered the poems and stories while searching for shelter.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“They were written on pieces of wood, stones, and scattered parchment.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“Ecstatic at his discovery, the journalist set out to identify the author and collect them all.”</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Mr. Зима … doesn’t seem like someone who could handle something like that.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>If it weren’t for these stone-paved roads, I swear, I would have marked this place as a “no man’s land.”</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">In an opening not far away, crude shacks, some empty or collapsed, stretch out like long scars torn into the earth.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">At the center lies an extinguished campfire.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What about those people who were exiled about a decade ago? Did they all escape?</li>
+<li>In those surviving records, the end of the exile policy …</li>
+<li>But … anyone who found themselves in this environment must have constantly thought of escaping.</li>
+<li>Forget it. I’ll look for traces of life first. Maybe I’ll find …</li>
+<li>Huh? The fire. It’s still warm.</li>
+<li>Is this …?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Half-burned parchment is scattered around the campfire in a scene of attempted destruction. He picks up one sheet.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Parchment paper with poetry on it and a still-smoldering campfire!</li>
+<li>Someone is definitely here!</li>
+<li>Who could it be? Who would write poetry in a place like this?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">It is an amazing discovery. The next occurrence, however, is even more surprising.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">A bird swoops over and snatches the parchment from his hand like an eagle plucking a fish from the ocean.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Hey!</li>
+<li>That’s mine! I found it! You nasty little thing!</li>
+<li>Give it back!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Humans who neglect to exercise are no match for wild animals.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">What this human now faces is a primitive yet most difficult-to-resist ambush.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Primitive, but efficient. It is orderly and prepared.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What’s going on!?</li>
+<li>How are there so many …!?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The birds, dedicated to driving off the intruder, give him no answer.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Bird</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>*chirps*</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>P-please, let go of my clothes!</li>
+<li>Where are you taking me?</li>
+<li>The parchment!? I don’t want the parchment! Give me back my notebook …</li>
+<li>No! That’s the brooch my mother left me!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">In such chaos, opportunities are fleeting.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">He must grab it and take back what is his!</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Bird</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Chirp.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You!</li>
+<li>Give it to me … Let go!</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">This sudden surge of resistance deters the birds for a few seconds.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">There is a brief pause in their attack. Then, a figure leisurely steps out of the woods.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">???</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>Please … ahem … s-stop.</li>
+<li>… *sigh*.</li>
+<li>Sorry …</li>
+<li>… about … your mother’s brooch …</li>
+</ul>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 3"><div><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>”… We grow, yet no one knows,”</li>
+<li>“Like poplars in the winter.”</li>
+<li>Did you write that?</li>
+<li>It’s beautiful. But …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Could you please ask your bear friend to stand a little further back?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The huge brown bear stands stubbornly between the two, a mighty guard.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… S-sorry.</li>
+<li>Mr. Medvedevich, please, stand … on my left.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You can talk to them?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>More than that … We communicate.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Okay … I have a few questions. In recompense for what you just put me through, could you answer them for me?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Go ahead.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Why did you come here?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>If you prefer not to say, I’ll ask a different question.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">There is a brief struggle in the poet’s mind.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Eventually, his rationality to end this quickly defeats his desire for silence.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Because of … a poem … for the Tsar. I didn’t want to write one.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I say, the Tsar! So you’re a political prisoner who once walked Green Street. I should have guessed earlier.</li>
+<li>But sentences mandated by the tsarist government ended long ago. Didn’t you know?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I don’t … understand.</li>
+<li>To me …</li>
+<li>There isn’t … much … difference … who I … serve the sentence for.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Have you ever thought about going back? You should!</li>
+<li>You have no idea how great the motherland is today …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">He remains silent as the reporter blathers on.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The poet raises his head. As far as the eye can see, there is nothing but endless forest.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Where is this “motherland?”</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>No …</li>
+<li>… I already … belong here.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">“The poet was not interested in the journalist’s suggestions.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“However, the journalist did not give up, hoping to change his mind through persistence.”</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… I see.</li>
+<li>Maybe I shouldn’t …</li>
+<li>…</li>
+<li>I hope this isn’t the story of the hunter and the pigeon.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Our cause could use the support of a concise and compelling spokesperson like you.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Ahh …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>The turns of phrase, the imagery, the metaphors! Every line brims with an innate charm.</li>
+<li>Sir, even though you refuse to tell me your name …</li>
+<li>I must invite you again to return with me. I would be more than willing to help you publish these works.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>If we bring back these manuscripts and transcribe the verses from the stones, …</li>
+<li>… your legendary experience surviving Devil’s Island, enduring such a harsh environment, yet continuing to create in the face of it all, would surely capture people’s attention!</li>
+<li>You’re a living legend! The last of the old guard! If you return to Moscow, fame, money, and status will all be at your fingertips.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee shakes its head in silent refusal.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Зима shakes his head, too.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… No? Why? Isn’t that what you want?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">He is clearly puzzled, so much so that he continues to inquire as to his reasoning.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Or did you not actually write these poems?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>That’s … not important. Maybe I did write them.</li>
+<li>Or maybe … “зима” wrote them, or Mr. Medvedevich …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>зима?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>They … are just—ahem—just “poems.” That’s … all.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What do you mean by that!? Are you some sort of responsibility-shafting liberal?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>What’s … that?</li>
+<li>… And I have no … “legendary experience.”</li>
+<li>Suffering … should not be embellished and … exploited.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You obviously have a sense of belonging to this place. You said so yourself.</li>
+<li>You’ve fallen in love with it! Despite its wild, primitive nature.</li>
+<li>That being the case, can this experience really be considered suffering for you?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>T-this is … my opinion.</li>
+<li>You haven’t … seen those who died …</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">The scorched earth, the collapsed shacks, the desolate forests with few traces of humanity.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The roads paved with bloodstained stones.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Where did they come from? Is there anyone who remembers?</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… because of the cold … hunger … injuries and despair.</li>
+<li>They are … right under … your feet.</li>
+<li>… *sigh*.</li>
+<li>Go back … alone. I decline … your offer.</li>
+</ul>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 4"><div><p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>Please … don’t … follow me again …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">He turns around to leave, beginning to regret his refusal of Mr. Medvedevich’s earlier offer.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee crouches on his shoulder, keeping a black, seedy eye on the journalist.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Sir, I have no other choice.</li>
+<li>When I arrived here, the boatman told me that it would be at least 14 days before the barge next docked.</li>
+<li>Until then … I really have nowhere else to go.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>So, head south …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I’ll probably die from hopelessness and exhaustion before I ever make it.</li>
+<li>You see, all these things I have with me are just like my life—completely useless!</li>
+<li>To be honest with you, I’ve come all the way here and found nothing! Absolutely nothing! I’m totally clueless.</li>
+<li>Even if I manage to return alive, I’ll be laughed out of the room by my peers. Every part of this horrible trip will have been a total waste of time.</li>
+<li>But if I follow you, and if luck is on my side, I might discover something new.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>You seem like a kind-hearted person—</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… I’ll ask … my friend. I’ll ask him to lead you to where … humans gather …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee jumps with dissatisfaction. It seems to be very much against this suggestion.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Alright, alright.</li>
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">He thinks hard, trying to find a way to satisfy everyone.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Does it usually take this much energy to deal with humans? Maybe he should not have answered any questions in the first place.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What … do you want?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… *sigh*!</li>
+<li>You still don’t get it, do you? All your problems would be solved if you just agreed to let me collect some of your poems and stories!</li>
+<li>Look, if you agree to this, I’ll have the motivation to leave the island. No need to worry about what comes afterwards.</li>
+<li>I’ll go back to minding my own business. No more following you around—</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Is … that so?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Then … Ahem, ahem. I … agree. Take them …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…!!!</li>
+<li>Thank you so much! I’ll retain your right of authorship.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I don’t need … credit.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Journalist</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>But the author must always be named. Otherwise, what will the readers call you? “The Poet of Devil’s Island?”</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Actually …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">He makes eye contact with the chickadee on his shoulder. A name slips off its tongue.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… “зима” is good.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">“The poet gave the journalist permission to take the sheets of parchment.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“But just when he thought that life would return to normal—”</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… “thought”?</li>
+<li>So, it didn’t then …</li>
+<li>Oh, my goodness …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">“More people embarked on the path to the island, paved with blood and stone, in search of his poetry, his stories, and him.”</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">The island has never been more crowded.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The forest is filled with masses of people. They swell and separate, bumping and shoving into each other like live sardines writhing in an open can.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Is this what the papers were talking about? Stones engraved with poetry and fables?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It must be. This place is just like the frozen wasteland near my hometown. If you don’t work the land until your hands are riddled with frostbite, then nothing comes of the place. It’s amazing that зима can continue to create here …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist III</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It’s more than just amazing … It’s downright unbelievable. I heard that зима has been stranded on the island for so long that he can communicate with animals. He’s almost a savage.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… If someone who can write poetry as great as his is considered a “savage,” then doesn’t that make the rest of us all the more primitive?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist III</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Maybe he survives by gathering fruit and hunting?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>The first person to report on “The Poet of Devil’s Island” was the now-editor-in-chief of “The Truth” newspaper, Suvorin. He certainly didn’t say anything about that.</li>
+<li>But … Ha. He got the sheets of parchment with зима’s poetry and was promoted from investigative journalist to literary editor as soon as he returned.</li>
+<li>Last month, he sent all the sheets of parchment to an exhibition. I saw them at Mikhailovsky Castle. They were written in French and Russian, and something that looked like Latin …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>So, what you mean to say is that зима can write in three languages and therefore cannot be a true savage.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist III</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>He’s a cultured savage.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>What an oxymoron …</li>
+<li>Nonetheless, I’ve been getting more and more curious. His collection of poems has been out for so long, but has anyone actually seen зима in person?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist III</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Are you implying something? Do you think this is some kind of elaborate hoax?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I don’t see why anyone would set up a hoax to increase tourism to, uh, this place …</li>
+<li>Besides, the poems on the parchment and on the stones in front of us all seem so real, don’t they?</li>
+<li>Anyway, I hope this is all real. I traveled here so that I might see him in person.</li>
+<li>Chekhov’s “Journey to a Distant Island” already seems like a hoax to me at this point. The conditions here are much worse than the book described.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Did you forget about the war …?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Well, зима doesn’t mention that in his works.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The sound of their discussion echoes through the forest.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The echoes reach the ears of a neatly uniformed duo, a little way away. They are approaching.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>The person living on this island must be quite eccentric. I mean, engraving words on rocks by the sea …</li>
+<li>Traces of arcane skills on the beach …</li>
+<li>Heh, we even found writing on the cliffs in places where a pigeon couldn’t perch.</li>
+<li>Although the traces are obvious, they are totally irregular. Interesting.</li>
+<li>Oh, maybe this time we’ll encounter a bear with several doctorates and serious social anxiety … like Mr. Mishka.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Don’t make such arbitrary guesses. Especially about such boring nonsense.</li>
+<li>Quit contemplating and focus on the mission.</li>
+<li>There are even more arcane skill fluctuations here than on the cliffs …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>That proves we’re on the right track. Where are these fluctuations?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>On those rocks up ahead.</li>
+</ul>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 5"><div><p><em class="mt-6 md:mt-8 inline-block">The two Foundation investigators trudge through the snow, like two cats with broken whiskers, making their way towards the rocks.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It’s rather crowded … If we dug down right here, do you think we’d strike oil?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I suggest we wait for the crowd in front of that rock to disperse a bit before we collect samples from the carvings on it.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Got it. You are the chief investigator, after all. What choice do I have but to listen to you?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Even so, I’d rather we make decisions together.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Understood! Not to interrupt, but there seems to be some commotion over there.</li>
+<li>By the—let me see … the biggest rock over there.</li>
+<li>I suggest we go over and see what’s going on.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Agreed.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">As they approach, the sound of argumentation grows louder. The debaters are stubbornly holding their ground.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">A crowd has gathered around them, awaiting the result with bated breath.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… But it wouldn’t be impossible to develop this island, even so far from the mainland … After all, that’s what several tsars spent two hundred years doing.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist III</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>So if these are fake, who is зима’s ghostwriter?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I still don’t think there’s a ghostwriter …</li>
+<li>Whether written on parchment or stone, there is an amazingly consistent and special warmth maintained in the language. It would be extremely difficult for a city dweller to emulate it.</li>
+<li>I’d really like to meet the author …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">After a brief silence, the dissenter speaks again. This time with words of praise.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist III</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>He’s actually quite admirable.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… The “savage,” you mean?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist III</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Think about it: if it’s true, then this person has been living here in this place for all these years. Somehow, he’s survived while writing beautiful poetry in the process. And for some reason, he never escaped or left, even after becoming famous.</li>
+<li>On the other hand, if it’s false, it still means that someone has taken the time to scratch all these poems into these stones and write in three languages on those parchment papers you saw … It’s quite a feat.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes, from that perspective, it’s remarkable nonetheless.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It actually is …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">A consensus, however brief, has been reached.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">A new voice of dissent echoes from somewhere in the crowd.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">???</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>H-how disappointing.</li>
+<li>There’s nothing … r-remarkable.</li>
+<li>One could see this … anywhere.</li>
+<li>Even a … child could write this …</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">“The crowds seemed to have ruined everything.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“They continuously poured onto the island, expressing their opinions about the engraved stones.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“They persistently searched for any trace of the poet’s existence.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“But, this time, the poet did not hide.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“He tried his best to get everything back to normal.”</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Excuse me, do you know the poet? How else could you make such a judgment?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>Anyone … with eyes … can see it …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Then you have insulted not just the poet but all of us too!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>These … lines … are so b-blunt and crude. The technique is … inferior.</li>
+<li>It’s like sticking straw … into the tundra and p-praising … the land’s vitality …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Do you think you could write better?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… I-it’s just … nonsense … carved into stone …</li>
+<li>Even you … could write … better.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Tourist III</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I suppose you are a famous poet yourself. May I ask what works you’ve written? When I return, I shall seek them out and read them.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">This comment is met with a wave of laughter. During the conversation, the crowd has divided into two distinct camps.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The instigator, who is vigorously disparaging these poems, stands alone in the center, like Moses after he parted the Red Sea.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The difference is that this “Red Sea” has not parted to give way to him, but to allow them to confront him more fiercely.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>I …</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee perches on his shoulder, pressing against his neck, eager to alleviate this moment of speechlessness.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Language, whether written by hand or spoken from the tongue, has never seemed so pallid as it does at this moment.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">In the strained silence, a faint, blue, icy halo appears beneath his feet.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The howls of beasts and the cries of birds echo from the forest behind him.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Look! The man in the middle.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It’s the same arcane fluctuation!</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>He looks pretty much the same as the others. Is he the arcanist who’s been carving things all over the place?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>He must be. And now we know why.</li>
+<li>He’s a poet.</li>
+</ul>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 6"><div><p><em class="mt-6 md:mt-8 inline-block">Beneath the cliff, a hidden conversation quietly unfolds.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">… Provided that “conversation” is understood in the loosest sense of the word.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>We know you’re trying to dispel the influx of people coming here.</li>
+<li>Otherwise, you wouldn’t have risked exposing yourself by coming out and disparaging your own work.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Even if you criticize your own writing as worthless …</li>
+<li>… the people who are already here will not leave easily.</li>
+<li>Alright. We’ll register you as a slightly extreme, reclusive arcanist.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>He’s a poet.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… *sigh*.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee flaps up and down uneasily.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It’s alright …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Sorry, what did you say?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I think he was talking to his bird.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Oh, I’ve heard about that—that some people can communicate with animals. Like chatting with a pike while ice fishing …</li>
+<li>A well-meaning fisherman is likely to master that skill. Or, have you heard the fairytale—</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>He’s an arcanist.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Therefore, I must remind you that your previous actions violated the Public Security Law.</li>
+<li>You may not have meant any harm, but they were dangerous nonetheless.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee chirps fiercely, trying to argue with them.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The poet remains silent.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>There’s no need to be so serious; nothing bad happened, did it?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>It’s part of our job to handle these things before they become a problem.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Alright, alright.</li>
+<li>I think I mentioned when I introduced myself earlier that we are investigators from the St. Pavlov Foundation. This is a routine investigation to locate arcanists …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>When we docked, we detected a large-scale fluctuation in arcane skills.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Those carvings in the bizarre spots on the cliffs—you wrote those, right? But I didn’t quite understand them, haha.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>Don’t pay any attention to him …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>Y-Yes.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">A small gap opens in the stone wall that is his silence, letting a sliver of light shine through.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Those … poems …</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… You wrote them, right? They’re beautiful. Even though their location is a little strange—</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">It is best to talk about poetry with a poet. It gives them some distance between themselves and their words, allowing them to speak more freely.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Standing before the gap in the stone, a happy expression at last appears on the poet’s exhausted face.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>They’re … allegorical poems.</li>
+<li>… I wrote them … for … passing birds to read.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">“The investigators from the St. Pavlov Foundation gave the poet another choice.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“A choice he had never imagined he would be presented with and was genuinely shaken by.”</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Then, Mr. Зима … joined the Foundation?</li>
+<li>So—</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… In summary, the St. Pavlov Foundation can provide you with a quiet, safe, creative environment, perhaps even an arcanist companion for you to talk to, and so on and so forth. If you have any special requirements, the specific terms can be negotiated further.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Registration does not affect an arcanist’s freedom of movement. We simply need to know your whereabouts.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Indeed. In fact, many arcanists like yourself, who prefer to be alone, agree to be registered. After all, there’s no harm in it. Why not think it over?</li>
+<li>Ah, yes, I almost forgot to ask. What’s your name?</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee flies from one shoulder to the other.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">It happily chirps a word. A name.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… “зима.”</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator II</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>зима, right? Okay.</li>
+<li>I understand that this place might be more familiar to you than your motherland. The idea of a motherland is symbolic, after all. I’m sure you are more aware of that than most, given your literary leanings.</li>
+<li>Oh, listen to me. Whether you make a living with your pen or your hands, it’s all the same … Anyway, you don’t have to make a decision right away; we’ll be staying on the island for some time.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Investigator I</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Yes. This area is yet to be explored by the Foundation.</li>
+<li>There may be other arcanists.</li>
+</ul>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Зима knows there are no other arcanists here.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">He has touched every rock that the sea strikes along the shore, has spent countless nights under the moonlight wandering through dark pines, and has sat by many campfires reading poetry.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">In the six-month-long winter, amidst the fierce gusts of the westerly wind and the brief warmth of a clearing sky—</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">There is no one else. No other arcanists. Just him and his friends.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">He knows, and he knows it well.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>…</li>
+<li>I don’t …</li>
+<li>…</li>
+<li>I don’t know.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">From the forest to the cliffs to the coast.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Thoughts and hesitations draw out time to infinity.</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">Зима looks out at the rising sun from the end of the long, empty dock.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">A distant, semi-circle; a fire held in the hands of the night, splitting sea from sky.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">It is bright enough to scorch the eyes, or at least enough to make them sting.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Everything feels small before this vast horizon.</em></p>
+<br/>
+<span class="text-base-content/50">(TO BE CONTINUED…)</span></div></template><template x-if="activeChapterIdx === 7"><div><p><em class="mt-6 md:mt-8 inline-block">“The poet accepted.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“He completed the registration the next month, the only additional condition being that he would ‘continue to stay on the island.’”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“After three months of negotiations, the Foundation retrieved the exhibited manuscripts from the authorities.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“But the poet never returned to take them.”</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“The original copies are currently housed in the Far East branch of the Foundation library. Copies are also available for reference at other branches.”</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>The library …</li>
+<li>I’ll go check there in a bit.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">She leafs through to the end of the file. There is only a half-blank page and the hard back cover.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Scrawled in the margin is an almost imperceptible signature.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">зима</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… But before I go, there’s one more thing I have to do.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">The sky is brightening as the morning mist clears. Platinum awnings dot the beach.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">In the distance, a heavy barge from Amur is outlined against the shore.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Magnificent, yet small. It bobs like an iceberg floating in the sea.</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… The ship is here.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Зима stands on the dock, surveying the scene as he did when he first set foot on the island.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee by his ear chirps a question, and he answers.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>I still … don’t know.</li>
+<li>Perhaps I should go to the Foundation.</li>
+<li>Just like they said …</li>
+<li>There are many people … like me there.</li>
+<li>I can write poems and forget all about the wilderness, fires, sickness, and hunger …</li>
+<li>I won’t be bothered by those people.</li>
+<li>It’ll be like … heaven.</li>
+<li>I just need to board the ship.</li>
+<li>Do you understand?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The chickadee sings a poem, which fails to answer the question.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">A fleeting smile crosses Зима’s face.</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Зима</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… You understand.</li>
+<li>But …</li>
+<li>Here, the sun and moon are eternal.</li>
+<li>Eternal stones, walnut shells, parchment, and …</li>
+<li>… all of you.</li>
+<li>…</li>
+<li>The joys of heaven are too vast and too remote …</li>
+<li>…</li>
+<li>Let’s go back.</li>
+</ul>
+<hr class="mt-6 md:mt-8 opacity-50">
+<div class="mt-6 md:mt-8 relative before:absolute before:left-0 before:top-0 before:w-1 before:h-full before:bg-primary-content before:opacity-90 italic pl-4">
+<p>(Corridor, Suitcase)</p>
+</div>
+<p><em class="mt-6 md:mt-8 inline-block">The corridor leading to the library is as empty as it was when she left.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Mr. Зима is usually here at this hour …</li>
+<li>I hope he didn’t change his plans.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Sonetto gently knocks on the half-open door.</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Mr. Зима?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">The only response is the chirping of a chickadee.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">зима is indeed there, along with a scroll of parchment and a bottle containing a strip of paper.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>That’s the parchment I took out earlier.</li>
+<li>And … a bottle? There’s a paper inside. Is it for me?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">зима gives an earnest nod.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>Okay. I’m going to open it.</li>
+<li>“—Please—read—”</li>
+<li>Huh? Please read what?</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">She looks up. зима has already unfolded the parchment on the table with its beak.</em></p>
+<p><span class="mt-6 md:mt-8 inline-block text-primary italic font-medium">Sonetto</span></p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:my-1 [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-px [&amp;_li]:before:bg-base-content">
+<li>… Ah.</li>
+</ul>
+<p><em class="mt-6 md:mt-8 inline-block">Of course, a poet would present a poem.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Poetry can give voice to the dead.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">Poetry can be a prophecy or simply an expression of one’s thoughts and emotions.</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">In one hundred feet of snow,<br/>A dead branch a quill will be, sufficient<br/>To write about the moon’s passage both night and day;<br/>To write about the frosted needles caught in treetops, the sound of the wind;<br/>To write about the nothingness of night and the all-embracing sea.<br/>They light a bonfire,<br/>Crackling, flickering,<br/>And before the fire leaves their eyes, they sing,<br/>What did you see?<br/>The rocks do not reply,<br/>But a young voice says,</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">“Humanity.”</em></p>
+<hr class="mt-6 md:mt-8 opacity-50">
+<p><em class="mt-6 md:mt-8 inline-block">зима’s small, distinct black claw marks are stamped on the corner of the parchment.</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">A budding sprout, the branching veins of a leaf, …</em></p>
+<p><em class="mt-6 md:mt-8 inline-block">The two signatures form a journey that has never been taken.</em></p>
+<br/>
+<span class="text-base-content/50">(THE END)</span></div></template></div><div class="divider"></div><div class="sticky z-10 bottom-0 left-0 right-0 bg-base-300 border-t border-b border-primary/50 py-2 px-4 flex justify-between gap-4 items-center"><button :disabled="activeChapterIdx === 0" class="disabled:opacity-30" @click="prevChapter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2" class="w-6 h-6">
+    <path d="M13 20l-3 -8l3 -8"></path>
+</svg></button><div class="flex-1 flex justify-center gap-2"><select class="select select-sm max-w-max w-full" @change="changeChapter($event.target.value)"><template x-for="chapter in chapters"><option :value="chapter.id" :selected="activeChapterIdx === chapter.id"><span x-text="'Chapter ' + chapter.chapter"></span><span x-text="': ' + chapter.title"></span></option></template></select><select class="select select-sm max-w-max w-full" @change="changeTheme($event.target.value)"><option value="story-default" :selected="activeTheme === 'story-default'">Default</option><option value="story-light" :selected="activeTheme === 'story-light'">Light</option><option value="story-fall" :selected="activeTheme === 'story-fall'">Fall</option></select></div><button :disabled="activeChapterIdx === 7" class="disabled:opacity-30" @click="nextChapter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2" class="w-6 h-6">
+    <path d="M11 4l3 8l-3 8"></path>
+</svg></button></div></div><script>(function(){const chapters = [{"id":"sparrow-in-hand","chapter":1,"title":"Sparrow in Hand","description":"It hides so well that not even a dog can find it."},{"id":"whispers-in-black-forest","chapter":2,"title":"Whispers in Black Forest","description":"The thick woods, glowing campfires, and plenty of agile and daring companions."},{"id":"self-exile","chapter":3,"title":"Self-Exile","description":"We were not exiled. We volunteered to build our homeland far away."},{"id":"an-easy-discovery","chapter":4,"title":"An Easy Discovery","description":"Keep talking, just keep talking."},{"id":"returning-with-abundance","chapter":5,"title":"Returning with Abundance","description":"There's nothing more to be said."},{"id":"poet-in-the-street","chapter":6,"title":"Poet in the Street","description":"Somebody has to tell the truth, right?"},{"id":"in-the-cold-night","chapter":7,"title":"In the Cold Night ...","description":"Listen, the sound of the heaven's flute draws near once more."},{"id":"something-else","chapter":8,"title":"Something Else","description":"Don't worry, the future isn't all doom and gloom."}];
+
+  document.addEventListener("alpine:init", () => {
+    window.Alpine.store("story", {
+      chapters,
+    });
+  });
+})();</script><script type="module" src="/_astro/StoryContentWrapper.astro_astro_type_script_index_0_lang.DxutjXdy.js"></script></main><div id="go-to-top" x-data="goToTop" @scroll.window="handleScroll" class="go-to-top sticky bottom-0 left-0 p-4 z-40 pointer-events-none flex justify-end"><button x-show="isShow" x-cloak x-transition @click="handleScrollToTop" x-ref="goToTop" class="btn btn-primary text-white p-0 w-8 h-8 md:w-10 md:h-10 min-h-min pointer-events-auto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6">
+  <path d="M6 15l6 -6l6 6"></path>
+</svg></button></div><script type="module" src="/_astro/GoToTop.astro_astro_type_script_index_0_lang.D4TLgWoS.js"></script><footer x-data="footer" x-ref="footer" class="border-t border-primary"><div class="footer container gap-y-4 place-items-center md:place-items-start items-center p-4"><aside class="items-center grid-flow-col"><a href="/" class="flex items-center"><img src="/layout/logo.png" loading="lazy" alt="logo" decoding="async" width="160" height="160" class="mr-2 w-10"><span class="text-xl text-primary italic"> Reverse:1999 Gnomon </span></a></aside><nav class="grid-flow-col gap-2 md:place-self-center md:justify-self-end"><div class="tooltip" data-tip="What's new" @click="whatsNewModal.showModal()"><div class="btn btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" ></path>
+    <path         d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11" ></path>
+    <path d="M8 8l4 0" ></path>
+    <path d="M8 12l4 0" ></path>
+    <path d="M8 16l4 0" ></path>
+</svg></div></div><a href="/about"><div class="tooltip" data-tip="About"><div class="btn btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <path         d="M12 9h.01"></path>
+    <path         d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z"
+    ></path>
+    <path d="M11 12h1v4h1"></path>
+</svg></div></div></a></nav></div><aside class="footer footer-center bg-base-content/20 py-4 px-2 text-xs">Reverse:1999 Gnomon is a fanmade website and not affiliated with Bluepoch and Official Reverse:1999.<br>All images and data belongs to their respective owners.</aside></footer><script type="module" src="/_astro/Footer.astro_astro_type_script_index_0_lang.DtLatDFZ.js"></script></div><div class="drawer-side z-50"><label for="sidebar" aria-label="close sidebar" class="drawer-overlay"></label><div class="menu p-4 w-80 min-h-full bg-base-200 justify-between"><ul class="flex-1"><!-- Sidebar content --><li><a href="/characters">Characters</a></li><li><a href="/psychubes">Psychubes</a></li><li><a href="/materials">Materials</a></li><li><a href="/guides">Guides</a></li><li><a href="/a-series-of-dusks">A Series of Dusks</a></li><li><a href="/mane-bulletin">Mane&#39;s Bulletin</a></li><li><a href="/reveries-in-the-rain">Reveries in the Rain</a></li><li><a href="/effects">Effects</a></li><li><a href="/about">About</a></li></ul><button class="btn btn-outline btn-secondary btn-sm" @click="searchModal.showModal()">Search</button></div></div></div><dialog id="whatsNewModal" x-ref="whatsNewModal" class="modal p-4 md:p-8" x-data="whatsNew('2026-07-05')" data-pagefind-ignore="all"><div class="modal-box w-full h-full max-w-screen-md max-h-[75%] border border-primary-content bg-base-100/80 backdrop-blur-sm flex flex-col p-4 md:p-6"><form method="dialog"><button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2" class="w-6 h-6">
+    <path d="M18 6l-12 12"></path>
+    <path d="M6 6l12 12"></path>
+</svg></button></form><h3 class="my-2 md:mt-4">What's new</h3><div class="flex-1 overflow-y-auto h-full"><p class="mt-4 text-primary text-lg font-medium">2026-07-05</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add 3.5 info: Ramona official info, Drown Out the Hustle, Luck Be a Lady psychubes</li>
+<li>Add 3.6 info: Enigma official info, The Riddle’s Limit psychube and Recoleta euphoria</li>
+<li>Update latest description text for some characters</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-06-03</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update show euphoria specialties (tags) in character detail page, as some characters will change them based on the activated euphoria (ex: Semmelweis)</li>
+<li>Update specialties filter now will check for both base and euphoria specialties</li>
+<li>Fix spacing styling</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-05-29</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add missing 3.4 info: Cheng Heguang, Reed official info, The Wind’s Listener, All Honor is but Dust psychubes</li>
+<li>Add Lorentz Butterfly official info, Ramona (info will be in development until official release)</li>
+<li>Add new psychube: The Fluttering Moment</li>
+<li>Add Euphoria for: Spathodea, Tuesday</li>
+<li>Uppdate new specialties for most of characters to match with the latest data in game</li>
+</ul>
+<br/>
+<div class="my-2">Hi, it has been a while! As I’m so busy recently, there are data that have been delayed for a long time. Sorry for any inconvenience that you may have. I’ll try to keep up with the updates as much as I can.</div>
+<p class="mt-4 text-primary text-lg font-medium">2026-04-16</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add Paper Heron official info</li>
+<li>Add Euphoria for: Tooth Fairy, Liang Yue, 6, Willow</li>
+<li>Add Photomancy for: Tooth Fairy, A Knight</li>
+<li>Add new psychube: Wayfarer of the Dao</li>
+<li>Update new infographic for characters: An-an Lee, Tooth Fairy, 6, Igor, Lopera, Willow, Flutterpage, Barcarola, Liang Yue, Moldir, Paper Heron (thanks @vaevictis. for these infographic)</li>
+<li>Update some text description</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-04-13</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add new characters in 3.4: Paper Heron, Cheng Heguang, Reed (these page info will be in development until official release)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-03-30</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add Igor official info</li>
+<li>Add new psychube: Across the Acheron</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-03-06</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Fix Marsha info (thanks @hiroshi.22, @byakushiki25 for the feedbacks)</li>
+<li>Update character infographic for: Marsha, Mercuria (thanks @vaevictis. for the infographic)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-03-05</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add Marsha official info</li>
+<li>Add new character euphorias: An-an Lee, Mercuria</li>
+<li>Add new psychube: Singleness of Heart</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-02-28</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add new characters in 3.3: Marsha, Igor (these page info will be in development until official release)</li>
+<li>Add new Ashen Beast mindmap (thanks @flare_azazel for the suggestion)</li>
+<li>Update archetype/trait list (thanks @hiroshi.22 for the feedbacks)</li>
+<li>Add some story transcripts</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-02-12</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update Brume official info</li>
+<li>Add new psychube: Her Willful Leap</li>
+<li>Update new Mane Bulletin info</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-23</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update character, psychube list filters to always show some base filters for quick access (thanks @penguin.scatter for the suggestion)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-22</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add Isolde Photomancy Euphoria info</li>
+<li>Update highlight number in character pages</li>
+<li>Update character infographic for: Beryl, Anjo Nala, Isolde, Kaalaa Baunaa (thanks @vaevictis. for the infographic)</li>
+<li>Update archetype/trait list (thanks @hiroshi.22 for the feedbacks)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-20</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update Beryl official info</li>
+<li>Add new characters euphoria: Anjo Nala, Isolde, Kaalaa Baunaa</li>
+<li>Add new psychubes: The Thousandfold Fate, Shadows in the Subconscious, In Their Figures</li>
+<li>Optimize code to reduce lagging on character pages</li>
+<li>Fix bugs</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-15</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Add new 3.2 characters: Beryl, Brume (these page info still in development until official release)</li>
+</ul>
+<p class="mt-4 text-primary text-lg font-medium">2026-01-08</p>
+<ul class="pl-4 [&amp;_li]:block [&amp;_li]:relative [&amp;_li]:before:absolute [&amp;_li]:before:-left-4 [&amp;_li]:before:top-2.5 [&amp;_li]:before:w-1 [&amp;_li]:before:h-1 [&amp;_li]:before:rounded-full [&amp;_li]:before:bg-base-content">
+<li>Update infographic for some characters: A Knight, Argus, Centurion, Druvis III, Buddy Fairchild, Charon, Corvus, Rubuska (thank you @vaevictis. for the infographic :D)</li>
+<li>Optimize images for faster page load</li>
+</ul></div><p class="pt-2 text-xs text-right">* Only show 10 latest updated dates.</p></div></dialog><script type="module" src="/_astro/WhatsNew.astro_astro_type_script_index_0_lang.DMvuMQdS.js"></script></body></html>

@@ -1,0 +1,1 @@
+import{t as e}from"./module.esm.o5A9fyoj.js";e.data(`footer`,()=>({init(){e.store(`layout`,{...this.$store.layout,footer:this.$refs.footer})}}));

@@ -1,0 +1,6 @@
+
+User-agent: *
+Allow: /
+Disallow: /dev/
+
+Sitemap: https://reverse1999-gnomon.pages.dev/sitemap-index.xml
